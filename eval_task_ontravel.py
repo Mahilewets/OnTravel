@@ -18,7 +18,7 @@ for line in second_file_lines:
     line_split = line.split(' ', 1)
     restaraunts[int(line_split[0])] = line_split[1].rstrip()
 
-answer = list()
+answer = []
 
 for line in first_file_lines:
     line_split = line.split(' ', 1)
